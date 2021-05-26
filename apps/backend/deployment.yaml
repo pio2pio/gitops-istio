@@ -23,6 +23,7 @@ spec:
         prometheus.io/scrape: "true"
       labels:
         app: backend
+        version: "5.0.0"
     spec:
       containers:
       - name: backend
