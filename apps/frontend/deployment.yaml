@@ -22,7 +22,7 @@ spec:
         prometheus.io/scrape: "true"
       labels:
         app: frontend
-        version: "5.0.0"
+        version: "5.0.1"
     spec:
       containers:
       - name: frontend
